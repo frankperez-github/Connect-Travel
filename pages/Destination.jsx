@@ -1,4 +1,5 @@
 import PackageCard from "./Components/PackageCard";
+import Form from '../pages/Components/Form'
 
 function Destination(){
 
@@ -16,6 +17,9 @@ function Destination(){
 
                 <PackageCard />
             </div>
+
+            <Form />
+
 
         </div>
     );

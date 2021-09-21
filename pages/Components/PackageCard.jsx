@@ -10,13 +10,13 @@ function PackageCard(){
             </div>
 
             <div className="RightSideCard">
-                <div className="Line">
+                <div className="Line FirstLine">
 
                     <div className="Clock Icon">
                         <Image alt="Clock" src="/Clock.svg" width={100} height={100} />
                     </div>
 
-                    <p>9 Days</p>
+                    <p className="ClockP">9 Days</p>
 
                     <h2>A Walk to Remember</h2>
 
@@ -52,7 +52,7 @@ function PackageCard(){
                     <div className="Left">
                         <p>per adult</p>
 
-                        <h2>$1041.00</h2>
+                        <h2 className="Price">$1041.00</h2>
                     </div>
                     
 

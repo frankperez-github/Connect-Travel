@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 function LayOut(props) {
 
@@ -13,10 +14,11 @@ function LayOut(props) {
             <div className="navBar">
 
                 <div className="Logo">
-                    <Image alt="Logo" src="/Logo.svg" width={200} height= {55} />
+                    <Link href="/">
+                        <Image alt="Logo" src="/Logo.svg" width={200} height= {55} />
+                    </Link>
                 </div>
                 
-
             
                 <div className="NavigationLinks">
                     <a href="#"> Covid-19 Travel Info </a>
