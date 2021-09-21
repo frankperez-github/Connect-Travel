@@ -1,0 +1,309 @@
+
+
+
+/************LayOut*****************/
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    max-height: 20vh;
+    background-color: #EE2632;
+}
+.Logo{
+    width: 10%;
+    padding-top: 1.5%;
+}
+.NavigationLinks{
+    display: flex;
+    width: 39%;
+    margin: 2% 0;
+    margin-bottom: 1%;
+}
+.NavigationLinks a{
+    text-decoration: none;
+    color: white;
+    margin-right: 5%;
+}
+.NavigationLinks p{
+    color: white;
+    margin-top: 0;
+    margin-right: 5%;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 4%;
+    border-top: solid;
+    border-color: #EE2632;
+    max-height: 23vh;
+}
+.logoFooter{
+    width: 13%;
+    padding: 3% 2.8%;
+    margin-top: 0.5%;
+}
+.footerInfo{
+    width: 75%;
+    margin-top: 0.6%;
+    color: #EE2632;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerInfo a{
+    text-decoration: none;
+    color: #EE2632;
+}
+.leftInfo{
+    width: 25%;
+}
+.rightInfo p:last-of-type{
+    margin-top: 5%;
+}
+.connectWeb{
+    margin-top: 2%;
+}
+.leftInfo p:last-of-type{
+    margin-top: -4%;
+}
+.rightInfo{
+    width: 37%;
+    margin-right: 6%;
+}
+.networksLink{
+    width: 22%;
+}
+.network{
+    width: 15%;
+    margin: 8% 0;
+}
+/************End of LayOut*****************/
+
+
+/*******************Main Section*********************/
+
+.formSection{
+    background-image: url(/formBackground.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 85vh;
+    padding-top: 3%;
+}
+.form-div{
+    background-color: white;
+    margin: 0 5%;
+    max-width: 90vw;
+    height: 60vh;
+}
+.Buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 4% 18%;
+}
+.LinkButton{
+    width: 17%;
+    background-color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 1.15% 2%;
+    border-radius: 1.5rem;
+    box-shadow: -1px 1px 3px rgb(78, 78, 78) ;
+}
+.LinkButton{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+.LinkButton:hover{
+    color: #EE2632;
+    
+}
+.redSection{
+    background-color: #EE2632;
+}
+.redSection h1{
+    color: white;
+    margin: 0;
+    padding: 2.5% 6%;
+    padding-bottom: 0;
+}
+.Destinations{
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 5%;
+}
+.DestinationsName{
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 5%;
+}
+.SpecificName{
+    width: 11%;
+    height: 2vh;
+    text-align: center;
+    background-color: white;
+    padding: 0.9% 1%;
+    padding-top: 0.4%;
+    margin-top: -4.7%;
+    margin-bottom: 5%;
+    z-index: 2;
+    color: #EE2632;
+    cursor: pointer;
+}
+.SpecificName p{
+    margin: 0%;
+}
+.SpecificDestination{
+    width: 19%;
+    cursor: pointer;
+}
+.Form{
+    z-index: 2;
+    text-align: center;
+    position: absolute;
+    width: 45%;
+    height: 60.2vh;
+    top: 17.8%;
+    left: 27.5%;
+    background-color: white;
+}
+.Form h1{
+    color: #EE2632;
+    font-size: 23px;
+}
+.Form input{
+    width: 70%;
+    padding: 1% 2%;
+}
+.Form p{
+    font-size: 10px;
+    width: 50%;
+    line-height: 160%;
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 4%;
+    color: gray;
+}
+.ConnectButton{
+    width: 25%;
+    height: 9.5%;
+    margin-top: 5%;
+    background-color: #EE2632;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.Close{
+    width: 2.8%;
+    margin: 1.5%;
+    margin-left: 95.5%;
+    cursor: pointer;
+}
+.Message{
+    width:5%;
+    margin-left: 48%;
+    margin-top: 8%;
+}
+.Blur{
+    display: none;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.411);
+    backdrop-filter: blur(1.8px);
+    width: 100%;
+    height: 100vh;
+}
+/*******************End of Main Section*********************/
+
+
+/******************Destination Section*************/
+
+.PicSection h1{
+    font-size: 55px;
+    border-bottom: solid;
+    border-bottom-width: 9px;
+    border-color: white;
+    color: white;
+    width: 35%;
+    text-align: right;
+    padding-right: 3%;
+}
+.PicSection{
+    height: 53vh;
+    padding-top: 7%;
+    background-image:url(/RedCar.svg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 80%;
+    margin: 0 10%;
+}
+.PackageCard{
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    border-color: rgb(150, 95, 95);
+    padding: 0 1%;
+    margin-top: 5%;
+}
+.LeftSideCard{
+    width: 43%;
+}
+.RightSideCard{
+    margin-top: 2%;
+    width: 53%;
+    font-size: 14px;
+}
+.RightSideCard p{
+    color: rgb(61, 61, 61);
+}
+.Line h2{
+    margin-right: 4%;
+    color: #EE2632;
+}
+.Line{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.Left{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+.Left p{
+    color: gray;
+}
+.Left h2{
+    margin-right: -10%;
+    margin-top: 6%;
+}
+.Line p{
+    width: 45%;
+}
+.Line:last-of-type{
+    margin-top: 4%;
+}
+.Icon{
+    width: 7%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: -5%;
+}
+.lastP{
+    margin-right: 48%;
+    margin-bottom: 0;
+}
+.Reserve{
+    padding: 1.5%;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+/**************End of Destination Section*************/
