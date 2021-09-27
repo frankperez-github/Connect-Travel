@@ -18,14 +18,14 @@ function LayOut(props) {
                         <Image alt="Logo" src="/Logo.svg" width={200} height= {55} />
                     </Link>
                 </div>
-                
             
                 <div className="NavigationLinks">
+
                     <a href="#"> Covid-19 Travel Info </a>
 
                     <p onClick={ShowForm}> Exclusive Deals </p>
 
-                    <a href="#"> About Us </a>
+                    <a href="/AboutUs"> About Us </a>
 
                     <a href="#"> FAQ </a>
 

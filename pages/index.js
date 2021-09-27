@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import Form from './Components/Form'
-
+import RedSection from './Components/RedSection'
 
 export default function Home() {
   return (
@@ -57,81 +55,15 @@ export default function Home() {
               </div>
 
             </div>
-            
-            <div className="redSection">
 
-              <h1>Find your next destination</h1>
-
-              <div className="Destinations">
-
-                <Link href="/Destination">
-                <div className="SpecificDestination">
-                  <Image alt="Destiny" width={1000} height={1000} src="/South_America.svg" />
-                </div>
-                </Link>
-
-                <Link href="/Destination">
-                  <div className="SpecificDestination">
-                    <Image alt="Destiny" width={1000} height={1000} src="/Caribbean.svg" />
-                  </div>
-                </Link>
-
-                <Link href="/Destination">
-                  <div className="SpecificDestination">
-                    <Image alt="Destiny" width={1000} height={1000} src="/Mexico_City.svg" />
-                  </div>
-                </Link>
-
-                <Link href="/Destination">
-                  <div className="SpecificDestination">
-                    <Image alt="Destiny" width={1000} height={1000} src="/Europe.svg" />
-                  </div>
-                </Link>
-
-                <Link href="/Destination">
-                  <div className="SpecificDestination">
-                    <Image alt="Destiny" width={1000} height={1000} src="/Asia.svg" />
-                  </div>
-                </Link>
-
-              </div>
-
-              <div className="DestinationsName">
-
-                <div className="SpecificName">
-                  <p>
-                    South America
-                  </p>
-                </div>
-
-                <div className="SpecificName">
-                  <p>
-                    Caribbean
-                  </p>
-                </div>
-
-                <div className="SpecificName">
-                  <p>
-                    Mexico City
-                  </p>
-                </div>
-
-                <div className="SpecificName">
-                  <p>
-                    Europe
-                  </p>
-                </div>
-
-                <div className="SpecificName">
-                  <p>
-                    Asia
-                  </p>
-                </div>
-
-              </div>
-
+            <div className="Insurance-div">
+              <a href="https://www.usa-assist.com/en/id/826" rel="noreferrer" title="Get your Travel Insurance" target="_blank">
+                <img src="https://www.usa-assist.com/images/banner_urgent_en.gif" alt="Get your Travel Insuranc" border="0"/>
+              </a>
             </div>
-
+            
+            <RedSection />
+            
         </div>
       </main>
 
