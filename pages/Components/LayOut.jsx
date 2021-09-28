@@ -25,7 +25,7 @@ function LayOut(props) {
 
                     <p onClick={ShowForm}> Exclusive Deals </p>
 
-                    <a href="/AboutUs"> About Us </a>
+                    <Link href="/AboutUs"> About Us </Link>
 
                     <a href="#"> FAQ </a>
 
