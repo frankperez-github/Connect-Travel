@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Form from '../Components/Form'
 import RedSection from '../Components/RedSection'
 
-export default function Home() {
+export default function Home({regions}) {
   return (
     <div>
       <Head>
@@ -71,3 +71,16 @@ export default function Home() {
     </div>
   )
 }
+
+export const getServerSideProps = async()=> {
+  
+  const res = await fetch('http://connect-venv.eba-ftshhm2s.us-west-2.elasticbeanstalk.com/')
+  const regions = await res.json()
+
+  return {
+    props: {
+      regions
+    }
+  }
+}
+
