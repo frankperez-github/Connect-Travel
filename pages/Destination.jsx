@@ -1,5 +1,5 @@
-import PackageCard from "./Components/PackageCard";
-import Form from '../pages/Components/Form'
+import PackageCard from "../Components/PackageCard";
+import Form from '../Components/Form'
 
 function Destination(){
 
