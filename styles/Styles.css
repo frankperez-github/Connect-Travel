@@ -253,7 +253,7 @@ p{
 .PicSection{
     height: 53vh;
     padding-top: 7%;
-    background-image:url(/RedCar.svg) ;
+   
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,12 +1,15 @@
 import Image from 'next/image'
 
-function PackageCard(){
+function PackageCard({pack}) {
+
+    const valid_from = new Date(pack.valid_from)
+    const valid_to = new Date(pack.valid_to)
 
     return(
         <div className="PackageCard">
             
             <div className="LeftSideCard">
-                <Image alt="Image" src="/CardImage.svg" width={1000} height={800} />
+                <Image alt="Image" src={pack.image} width={1000} height={800} />
             </div>
 
             <div className="RightSideCard">
@@ -18,7 +21,7 @@ function PackageCard(){
 
                     <p className="ClockP">9 Days</p>
 
-                    <h2>A Walk to Remember</h2>
+                    <h2> {pack.title} </h2>
 
                 </div>
 
@@ -28,11 +31,11 @@ function PackageCard(){
                     </div>
 
                     <p>
-                        Valid from May 11,2020 to Mar 15,2021
+                        Valid from {valid_from.getDate()}, {valid_to.getFullYear()} to {valid_to.getDate()}, {valid_to.getFullYear()}
                     </p>
 
                     <p>
-                        Visiting: Ámsterdam, Bruges, Brussels, Cologne KOln, Cruise on The River Rhinee, Frankfurt, Lauf, Paris, Prague, Wurzburg.
+                        Visiting: {pack.destination}
                     </p>
 
                 </div>
@@ -43,7 +46,7 @@ function PackageCard(){
                         <Image alt="Ubication" src="/Ubication.svg" width={100} height={100} />
                     </div>
 
-                    <p className="lastP">Trip to Visiting: Ámsterdam, Bruges, Brussels, Cologne KOln, Cruise on The River Rhinee, Frankfurt, Lauf, Paris, Prague, Wurzburg.</p>
+                    <p className="lastP"> {pack.description}</p>
 
                 </div>
 
@@ -52,7 +55,7 @@ function PackageCard(){
                     <div className="Left">
                         <p>per adult</p>
 
-                        <h2 className="Price">$1041.00</h2>
+                        <h2 className="Price">&#36;{pack.price}</h2>
                     </div>
                     
 
