@@ -1,4 +1,4 @@
-import RedSection from "./Components/RedSection";
+import RedSection from "../Components/RedSection";
 
 function About_Us(){
     return(

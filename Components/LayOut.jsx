@@ -14,7 +14,7 @@ function LayOut(props) {
             <div className="navBar">
 
                 <div className="Logo">
-                    <Link href="/">
+                     < Link href="/" passHref={true}>
                         <Image alt="Logo" src="/Logo.svg" width={200} height= {55} />
                     </Link>
                 </div>

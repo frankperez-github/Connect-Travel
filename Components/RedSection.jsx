@@ -9,31 +9,31 @@ function RedSection (){
 
             <div className="Destinations">
 
-                <Link href="/Destination">
+                <Link href="/Region/2" passHref={true}>
                     <div className="SpecificDestination">
                         <Image alt="Destiny" width={1000} height={1000} src="/South_America.svg" />
                     </div>
                 </Link>
 
-                <Link href="/Destination">
+                <Link passHref={true}  href="Region/3">
                     <div className="SpecificDestination">
                     <Image alt="Destiny" width={1000} height={1000} src="/Caribbean.svg" />
                     </div>
                 </Link>
 
-                <Link href="/Destination">
+                <Link passHref={true} href="Region/4">
                     <div className="SpecificDestination">
                     <Image alt="Destiny" width={1000} height={1000} src="/Mexico_City.svg" />
                     </div>
                 </Link>
 
-                <Link href="/Destination">
+                <Link passHref={true} href="Region/5">
                     <div className="SpecificDestination">
                     <Image alt="Destiny" width={1000} height={1000} src="/Europe.svg" />
                     </div>
                 </Link>
 
-                <Link href="/Destination">
+                <Link passHref={true} href="Region/6">
                     <div className="SpecificDestination">
                     <Image alt="Destiny" width={1000} height={1000} src="/Asia.svg" />
                     </div>

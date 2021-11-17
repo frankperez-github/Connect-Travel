@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Form from './Components/Form'
-import RedSection from './Components/RedSection'
+import Form from '../Components/Form'
+import RedSection from '../Components/RedSection'
 
-export default function Home() {
+export default function Home({regions}) {
   return (
     <div>
       <Head>
@@ -58,7 +58,7 @@ export default function Home() {
 
             <div className="Insurance-div">
               <a href="https://www.usa-assist.com/en/id/826" rel="noreferrer" title="Get your Travel Insurance" target="_blank">
-                <img src="https://www.usa-assist.com/images/banner_urgent_en.gif" alt="Get your Travel Insuranc" border="0"/>
+                <img src="https://www.usa-assist.com/images/banner_urgent_en.gif" alt="Get your Travel Insurance" border="0"/>
               </a>
             </div>
             
@@ -71,3 +71,16 @@ export default function Home() {
     </div>
   )
 }
+
+export const getServerSideProps = async()=> {
+  
+  const res = await fetch('http://connect-venv.eba-ftshhm2s.us-west-2.elasticbeanstalk.com/')
+  const regions = await res.json()
+
+  return {
+    props: {
+      regions
+    }
+  }
+}
+
