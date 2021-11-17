@@ -56,7 +56,7 @@ function PackageCard(){
                     </div>
                     
 
-                    <button className="ConnectButton Reserve">Reserve</button>
+                    <a href="mailto:book@connectravel.us" className="ConnectButton Reserve">Reserve</a>
 
                 </div>
 
