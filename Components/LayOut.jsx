@@ -1,14 +1,26 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Form from './Form';
+import SideMenu from './SideMenu';
 
 function LayOut(props) {
 
+
     const ShowForm = () =>{
-        var Form = document.getElementById('Form-Page');
-        Form.style.display="block"
+        document.getElementById('Form-div').style.display="block";
+        document.getElementById('Form-Page').style.display="block";
+    }
+    const CloseMenu =()=>{
+        document.getElementById('blur').style.display="none"
+        document.getElementById('SideMenu').style.display="none"
+    }
+    const ShowMenu =()=>{
+        document.getElementById('blur').style.display="block"
+        document.getElementById('SideMenu').style.display="block"
     }
 
     return(
+        
         <div className="Layout">
 
             <div className="navBar">
@@ -18,19 +30,26 @@ function LayOut(props) {
                         <Image alt="Logo" src="/Logo.svg" width={200} height= {55} />
                     </Link>
                 </div>
-            
-                <div className="NavigationLinks">
 
-                    <a href="#"> Covid-19 Travel Info </a>
-
-                    <p onClick={ShowForm}> Exclusive Deals </p>
-
-                    <Link href="/AboutUs"> About Us </Link>
-
-                    <a href="#"> FAQ </a>
-
+                <div className="BurgerMenu">
+                    <Image onClick={ShowMenu} width={30} height={30} src="/BurgerMenu.svg" alt="Menu" />
                 </div>
 
+                <div className="blur" id='blur' onClick={CloseMenu}></div>
+
+                    <div className="NavigationLinks" onClick={CloseMenu}>
+
+                        <a href="https://apply.joinsherpa.com/map/"  rel="noreferrer" target="_blank"> Covid-19 Travel Info </a>
+
+                        <p onClick={ShowForm}> Exclusive Deals </p>
+
+                        <Link href="/AboutUs"> About Us </Link>
+
+                        <Link href="/Terms_Conditions"> Terms and Conditions </Link>
+
+                    </div>
+
+                    <SideMenu />
             </div>
 
             <main>
@@ -47,18 +66,21 @@ function LayOut(props) {
                 <div className="footerInfo">
 
                     <div className="leftInfo">
-                        <p>SP: <a href="tel:+17863896393">+1 786 389 6393</a></p>
+                        <div className="Phones">
+                            <p><span>SP:</span> <a href="tel:+17863896393">+1 786 389 6393</a></p>
 
-                        <p>EN: <a href="tel:+17863897560">+1 786 389 7560</a></p>
+                            <p><span>EN:</span> <a href="tel:+17863897560">+1 786 389 7560</a></p>
+                        </div>
 
-                        <div className="">
-                            <a href="mailto:book@connectravel.us">book@connectravel.us</a>
-                        </div>
-                        
-                        <div className="connectWeb">
-                            <a href="www.connectravel.us" >www.connectravel.us</a>
-                        </div>
-                       
+                        <div className="Mails">
+                            <div className="">
+                                <a href="mailto:book@connectravel.us">book@connectravel.us</a>
+                            </div>
+                            
+                            <div className="connectWeb">
+                                <a href="www.connectravel.us" >www.connectravel.us</a>
+                            </div>
+                        </div>     
 
                     </div>
 
@@ -87,8 +109,8 @@ function LayOut(props) {
                 </div>
 
             </div>
-            
 
+            <Form />
         </div>
     )
     

@@ -3,8 +3,9 @@ import PackageCard from "../../Components/PackageCard"
 
 export const getServerSideProps = async(context) => {
 
-    const res = await fetch(`http://connect-venv.eba-ftshhm2s.us-west-2.elasticbeanstalk.com/${context.params.id}`)
+    const res = await fetch(`http://localhost:8000/${context.params.id}`)
     const region = await res.json()
+
     return {
         props: {
             region
@@ -14,6 +15,7 @@ export const getServerSideProps = async(context) => {
 
 const Region = ({region}) => {
     return (
+        
     <div className="Destination">
             
     <div className="PicSection" style={{backgroundImage:`url(${region.cover})`}}>

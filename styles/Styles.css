@@ -4,6 +4,12 @@ p{
 
 
 /************LayOut*****************/
+.blur{
+    display: none;
+}
+.CloseMenu{
+    display: none;
+}
 .navBar{
     display: flex;
     justify-content: space-between;
@@ -16,16 +22,31 @@ p{
     width: 10%;
     padding-top: 1.5%;
 }
+.BurgerMenu{
+    display: none;
+}
+#SideMenu{
+    display: none;
+    width: 80%;
+}
 .NavigationLinks{
     display: flex;
-    width: 39%;
+    width: 100%;
     margin: 2% 0;
     margin-bottom: 1%;
+    justify-content: end;
+}
+
+.NavigationLinksMob{
+    display: none;
 }
 .NavigationLinks a{
     text-decoration: none;
     color: white;
     margin-right: 5%;
+}
+.NavigationLinks a:last-of-type{
+    margin-right: 0;
 }
 .NavigationLinks p{
     font-size: 16px;
@@ -94,18 +115,45 @@ p{
 /*******************Main Section*********************/
 
 .formSection{
-    background-image: url(/formBackground.svg);
-    background-position: center center;
+    background-image: url(/man-having-a-picture-on-rock-709496.svg);
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 85vh;
+    min-height: 92vh;
     padding-top: 3%;
 }
-.form-div{
+.formSection{
+    color: #EE2632;
+    margin: 0;
+    padding: 2.5% 6%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-size: 28px;
+    line-height: 250%;
+}
+.formSection p{
+    margin-top: -3%;
+    color: rgb(68, 65, 65);
+    margin-bottom: -2.5%;
+}
+.BookLabel{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 2%;
+    padding-right: 5%;
     background-color: white;
-    margin: 0 5%;
-    max-width: 90vw;
-    height: 60vh;
+    width: 22%;
+    margin-top: 4.5%;
+    cursor: pointer;
+    border: none;
+}
+.BookLabel p{
+    padding: 5% 0;
+    margin-top: 0%;
+    color: #EE2632 !important;
+}
+.Arrow{
+    width: 20%;
 }
 .Buttons{
     display: flex;
@@ -117,6 +165,8 @@ p{
     font-size: 16px;
     width: 17%;
     background-color: white;
+    border: solid;
+    border-width: 1px;
     font-weight: 500;
     text-align: center;
     padding: 1.15% 2%;
@@ -129,10 +179,19 @@ p{
 }
 .LinkButton:hover{
     color: #EE2632;
+    border: solid;
+    border-width: 1px;
+    border-color: #EE2632;
     
 }
 .redSection{
     background-color: #EE2632;
+}
+.DestinationRow{
+    width: 92%;
+    display: flex;
+    justify-content: left;
+    margin: 0% 3.5%;
 }
 .redSection h1{
     color: white;
@@ -141,25 +200,22 @@ p{
     padding-bottom: 0;
     font-size: 32px;
 }
+
 .Destinations{
-    display: flex;
-    justify-content: space-around;
-    margin: 3% 5%;
-}
-.DestinationsName{
-    display: flex;
-    justify-content: space-around;
-    margin: 3% 5%;
+    width: 20%;
+    margin: 3% 0%;
+    margin-left: 2%;
 }
 .SpecificName{
-    width: 11%;
+    position: relative;
+    width: 55%;
     height: 2.5vh;
     text-align: center;
     background-color: white;
-    padding: 0.7% 1%;
-    margin-top: -4.7%;
-    margin-bottom: 5%;
-    z-index: 2;
+    padding: 2.5% 1%;
+    margin-bottom: 25%;
+    margin-left: 22.5%;
+    margin-top: -7%;
     color: #EE2632;
     cursor: pointer;
 }
@@ -168,13 +224,16 @@ p{
     font-size: 14px;
 }
 .SpecificDestination{
-    width: 19%;
+    width: 100%;
     cursor: pointer;
 }
+#Form-div{
+    display: none;
+}
 .Form{
-    z-index: 2;
+    z-index: 5;
     text-align: center;
-    position: absolute;
+    position: fixed;
     width: 45%;
     max-height: 60.2vh;
     top: 17.8%;
@@ -237,6 +296,20 @@ p{
     margin: 2% 0;
     text-align: center;
 }
+#InsuranceMob{
+    display: none;
+}
+#InsuranceDesk{
+    display: block;
+}
+.Info{
+    color: rgb(83, 80, 80);
+    margin: 0;
+    width: 25%;
+    margin: 2.5% 39%;
+    padding-bottom: 0;
+    font-size: 32px;
+}
 /*******************End of Main Section*********************/
 
 
@@ -283,6 +356,9 @@ p{
     width: 54%;
     font-size: 14px;
 }
+.RightSideCard h2{
+    color: #EE2632;
+}
 .RightSideCard p{
     color: rgb(61, 61, 61);
 }
@@ -291,10 +367,12 @@ p{
     color: #EE2632;
 }
 .Line{
+    margin-bottom: 5%;
     display: flex;
-    justify-content: space-between;
     text-align: left;
+    width: 50%;
 }
+
 .Left{
     display: flex;
     justify-content: space-between;
@@ -312,7 +390,7 @@ p{
     margin-top: 6%;
 }
 .Line p{
-    width: 45%;
+    width: 80%;
 }
 .FirstLine p:first-of-type{
     margin-top: 4%;
@@ -321,25 +399,39 @@ p{
     margin-top: 4%;
 }
 .Icon{
-    width: 7%;
+    width: 10%;
     margin-top: 2%;
-    margin-right: 0.2%;
-    margin-left: -2.5%;
+    margin-right: 5%;
+}
+.RightHalf{
+    position: relative;
+    margin-left: 53%;
+    margin-top: 0%;
+    margin-bottom: -15.5%;
+}
+.PriceMob{
+    width: 25%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.PriceRow{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
 }
 .ClockP{
     width: 25%;
     margin-left: 2%;
 }
-.lastP{
-    margin-right: 48%;
-    margin-bottom: 0;
-}
 .Reserve{
     text-align: center;
-    padding: 1.7%;
+    padding: 2.5% 5%;
     font-size: 18px;
     margin-top: 5%;
-    margin-right: 5%;
+    margin-right: 3%;
     text-decoration: none;
 }
 /**************End of Destination Section*************/
@@ -364,13 +456,142 @@ p{
     margin: 3% 37.5%;
     line-height: 25px;
 }
+.redSection h1{
+    text-align: left;
+}
 /*******end of About Us***************************/
+
+/*********Terms and Conditions**************/
+.TermsTitle{
+    border-bottom: solid;
+    border-width: 7px;
+    border-color: #EE2632;
+    width: 50%;
+    margin-bottom: 3%;
+}
+.TermsTitle h1{
+    font-size: 45px;
+    margin-left: 27%;
+    margin-top: 10%;
+}
+.TermsInfo{
+    width: 73%;
+    margin: 0 13.5%;
+}
+.TermsInfo p{
+    line-height: 150%;
+}
+.TermsInfo h2{
+    margin-top: 5%;
+    margin-bottom: 0;
+    color: #EE2632;
+}
+/*********End of Terms and Conditions*******/
+
+
 
 /*************Responsive Design**************/
 
 
-@media (max-width:1125px) {
+
+
+
+@media (min-width:1400px) {
+    .BookLabel{
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 2%;
+        padding-right: 5%;
+        background-color: white;
+        width: 25%;
+        margin-top: 4.5%;
+        cursor: pointer;
+    }
+    .Arrow{
+        width: 20%;
+        margin-right: 15%;
+    }
+    .BookLabel p{
+        font-size: 17px;
+        padding-top: 7%;
+    }
+}
+@media (min-width:2500px) {
+    .formSection p{
+        margin-top: -2%;
+        color: rgb(68, 65, 65);
+        margin-bottom: -2.5%;
+    }
+    .BookLabel{
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 2%;
+        padding-right: 5%;
+        background-color: white;
+        width: 22%;
+        margin-top: 4.5%;
+        cursor: pointer;
+        border: none;
+    }
+    .BookLabel p{
+        font-size: 22px;
+        padding-top: 8%;
+    }
+    .Arrow{
+        margin-top: -6%;
+        width: 20%;
+    }
+}
+@media (min-width:1920px) {
+    .formSection p{
+        margin-top: -2%;
+        color: rgb(68, 65, 65);
+        margin-bottom: -2.5%;
+    }
+    .BookLabel{
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 2%;
+        padding-right: 5%;
+        background-color: white;
+        width: 22%;
+        margin-top: 4.5%;
+        cursor: pointer;
+        border: none;
+    }
     
+    .Arrow{
+        margin-top: -1%;
+        width: 20%;
+        margin-right: 15%;
+    }
+    .leftInfo{
+        margin-top: 2%;
+        width: 15%;
+    }
+    .rightInfo{
+        margin-top: 2%;
+    }
+    .SpecificName p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:1125px) {
+    .BookLabel{
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 2%;
+        padding-right: 5%;
+        background-color: white;
+        width: 22%;
+        margin-top: 4.5%;
+        cursor: pointer;
+        border: none;
+    }
+    .Arrow{
+        width: 20%;
+    }
     p{
         font-size: 11px;
     }
@@ -399,6 +620,9 @@ p{
         font-size: 15px;
     }
     .redSection h1{
+        font-size: 30px;
+    }
+    .Info{
         font-size: 30px;
     }
     .SpecificName p{
@@ -448,6 +672,9 @@ p{
     .redSection h1{
         font-size: 29px;
     }
+    .Info{
+        font-size: 29px;
+    }
     .SpecificName p{
         font-size: 12px;
     }
@@ -493,6 +720,9 @@ p{
         font-size: 12px;
     }
     .redSection h1{
+        font-size: 26px;
+    }
+    .Info{
         font-size: 26px;
     }
     .SpecificName p{
@@ -542,6 +772,9 @@ p{
     .redSection h1{
         font-size: 22px;
     }
+    .Info{
+        font-size: 22px;
+    }
     .SpecificName p{
         font-size: 10px;
     }
@@ -586,6 +819,9 @@ p{
     .redSection h1{
         font-size: 20px;
     }
+    .Info{
+        font-size: 20px;
+    }
     .SpecificName p{
         font-size: 8px;
     }
@@ -628,6 +864,9 @@ p{
         font-size: 7px;
     }
     .redSection h1{
+        font-size: 18px;
+    }
+    .Info{
         font-size: 18px;
     }
     .SpecificName p{

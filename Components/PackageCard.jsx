@@ -13,7 +13,15 @@ function PackageCard({pack}) {
             </div>
 
             <div className="RightSideCard">
-                <div className="Line FirstLine">
+
+                <div className="RightHalf">
+                    <h2> {pack.title} </h2>
+
+                    <p className='Description'>
+                        {pack.description}
+                    </p>
+                </div>
+                <div className="Line">
 
                     <div className="Clock Icon">
                         <Image alt="Clock" src="/Clock.svg" width={100} height={100} />
@@ -21,21 +29,16 @@ function PackageCard({pack}) {
 
                     <p className="ClockP">9 Days</p>
 
-                    <h2> {pack.title} </h2>
-
                 </div>
 
                 <div className="Line">
+
                     <div className="Calendar Icon" >
                         <Image alt="Calendar" src="/Calendar.svg" width={100} height={100} />
                     </div>
 
                     <p>
                         Valid from {valid_from.getDate()}, {valid_to.getFullYear()} to {valid_to.getDate()}, {valid_to.getFullYear()}
-                    </p>
-
-                    <p>
-                        Visiting: {pack.destination}
                     </p>
 
                 </div>
@@ -46,23 +49,18 @@ function PackageCard({pack}) {
                         <Image alt="Ubication" src="/Ubication.svg" width={100} height={100} />
                     </div>
 
-                    <p className="lastP"> {pack.description}</p>
+                    <p>Visiting: {pack.destination}</p>
 
                 </div>
 
-                <div className="Line">
-
-                    <div className="Left">
-                        <p>per adult</p>
-
+                <div className="PriceRow">
+                    <div className="PriceMob">
                         <h2 className="Price">&#36;{pack.price}</h2>
+                        <p>per adult</p>
                     </div>
-                    
 
                     <a href="mailto:book@connectravel.us" className="ConnectButton Reserve">Reserve</a>
-
                 </div>
-
             </div>
 
         </div>
