@@ -78,7 +78,7 @@ function LayOut(props) {
                             </div>
                             
                             <div className="connectWeb">
-                                <a href="www.connectravel.us" >www.connectravel.us</a>
+                                <a href="https://www.connectravel.us" >www.connectravel.us</a>
                             </div>
                         </div>     
 

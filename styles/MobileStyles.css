@@ -307,12 +307,26 @@
         margin-bottom: -9%;
     }
     .formSection{
-        background-image: url(/man-having-a-picture-on-rock-709496.svg);
-        background-position: left;
+        animation-name: BackgAnimMob;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+        background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 92vh;
         padding-top: 3%;
+    }
+    @keyframes BackgAnimMob{
+        0%{background-image: url(/1_mov.jpg);}
+        19.9%{background-image: url(/1_mov.jpg);}
+        20%{background-image: url(/2_mov.jpg);}
+        39.9%{background-image: url(/2_mov.jpg);}
+        40%{background-image: url(/3_mov.jpg);}
+        59.9%{background-image: url(/3_mov.jpg);}
+        60%{background-image: url(/4_mov.jpg);}
+        79.9%{background-image: url(/4_mov.jpg);}
+        80%{background-image: url(/5_mov.jpg);}
+        100%{background-image: url(/5_mov.jpg);}
     }
     .formSection{
         color: #EE2632;
@@ -343,9 +357,9 @@
         cursor: pointer;
     }
     .BookLabel p{
-        font-size: 18px;
+        font-size: 16px;
         width: 50%;
-        margin-top: 2%;
+        margin-top: 3%;
         margin-right: 7%;
         margin-left: 2%;
         margin-bottom: 0;
@@ -485,11 +499,13 @@
     .formSection{
         padding-top: 5%;
         font-size: 15px;
+        height: 126vh;
     }
     .Info{
         width: 60%;
         margin-left: 21.5%;
     }   
+    
 }
 @media (width:390px) {
     .formSection{

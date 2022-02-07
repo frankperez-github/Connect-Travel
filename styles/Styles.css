@@ -115,12 +115,26 @@ p{
 /*******************Main Section*********************/
 
 .formSection{
-    background-image: url(/man-having-a-picture-on-rock-709496.svg);
+    animation-name: BackgAnim;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 92vh;
+    min-height: 87vh;
     padding-top: 3%;
+}
+@keyframes BackgAnim{
+    0%{background-image: url(/1_esc.jpg);}
+    19.9%{background-image: url(/1_esc.jpg);}
+    20%{background-image: url(/2_esc.jpg);}
+    39.9%{background-image: url(/2_esc.jpg);}
+    40%{background-image: url(/3_esc.jpg);}
+    59.9%{background-image: url(/3_esc.jpg);}
+    60%{background-image: url(/4_esc.jpg);}
+    79.9%{background-image: url(/4_esc.jpg);}
+    80%{background-image: url(/5_esc.jpg);}
+    100%{background-image: url(/5_esc.jpg);}
 }
 .formSection{
     color: #EE2632;
@@ -148,11 +162,13 @@ p{
     border: none;
 }
 .BookLabel p{
-    padding: 5% 0;
+    padding: 7% 0;
     margin-top: 0%;
     color: #EE2632 !important;
 }
 .Arrow{
+    margin-top: 1.5%;
+    margin-right: 15%;
     width: 20%;
 }
 .Buttons{
@@ -213,7 +229,7 @@ p{
     text-align: center;
     background-color: white;
     padding: 2.5% 1%;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
     margin-left: 22.5%;
     margin-top: -7%;
     color: #EE2632;
@@ -293,7 +309,8 @@ p{
 }
 .Insurance-div{
     width: 100%;
-    margin: 2% 0;
+    margin: 10% 0;
+    margin-top: 7%;
     text-align: center;
 }
 #InsuranceMob{
