@@ -8,7 +8,7 @@ function DestinationCard ({region}){
 
             <Link href={`/Region/${region.id}`} passHref={true}>
                 <div className="SpecificDestination">
-                    <Image alt="Destiny" width={1000} height={1000} src="/South_America.svg" />
+                    <Image alt="Destiny" width={1000} height={1000} src={region.icon}/>
                 
                     <div className="SpecificName">
                         <p>

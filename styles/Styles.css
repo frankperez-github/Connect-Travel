@@ -576,7 +576,9 @@ p{
         cursor: pointer;
         border: none;
     }
-    
+    .formSection p{
+        margin-top: -1%;
+    }
     .Arrow{
         margin-top: -1%;
         width: 20%;

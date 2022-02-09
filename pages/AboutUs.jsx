@@ -23,7 +23,7 @@ function About_Us({regions}){
 
 export const getServerSideProps = async()=> {
   
-    const res = await fetch(`http://localhost:8000/`)
+    const res = await fetch(`https://connectravelsetup.com/`)
     const regions = await res.json()
   
     return {

@@ -3,7 +3,7 @@ import PackageCard from "../../Components/PackageCard"
 
 export const getServerSideProps = async(context) => {
 
-    const res = await fetch(`http://localhost:8000/${context.params.id}`)
+    const res = await fetch(`https://connectravelsetup.com/${context.params.id}`)
     const region = await res.json()
 
     return {
