@@ -3,7 +3,18 @@ import Form from '../Components/Form'
 import DestinationCard from '../Components/DestinationCard'
 import Image from 'next/image'
 
+
+
 export default function Home({regions}) {
+  
+
+  function animationArrow(){
+    document.getElementById("Arrow").classList.add('ArrowMove')
+  }
+  function ReturnArrow(){
+    document.getElementById("Arrow").classList.remove('ArrowMove')
+  }
+
   return (
     <div>
 
@@ -22,14 +33,17 @@ export default function Home({regions}) {
             <h1>Book your next <br/>travel experience <br/>with us!</h1>
 
             <p>Search for flights, hotels, cruisers and more!</p>
+              <a href='https://connecttravelcorp.clickandbook.com/' rel="noreferrer" target="_blank">
 
-            <button className='BookLabel'>
-              <p>Click and Book</p>
-              
-              <div className='Arrow'>
-                <Image alt="" width={1000} height={1000} src ="/Arrow.svg"  />
-              </div>
-            </button>
+                <button onMouseLeave={ReturnArrow} onMouseOver={animationArrow} className='BookLabel'>
+                    <p >Click and Book</p>
+                    
+                    <div id='Arrow' className='Arrow'>
+                      <Image alt="" width={1000} height={1000} src ="/Arrow.svg"  />
+                    </div>
+                </button>
+
+              </a>
           </div>
 
           <h1 className='Info'>Useful information</h1>

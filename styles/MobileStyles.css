@@ -25,6 +25,11 @@
     .formSection{
         min-height: auto;
     }
+    .PicSection h1{
+        border-width: 4px;
+        width: 60%;
+        font-size: 29px;
+    }
     .redSection h1{
         text-align: center;
         font-size: 28px;
@@ -65,7 +70,7 @@
     }
     .footer{
         display: block;
-        margin-top: 4%;
+        margin-top: 20%;
         width: 76;
         padding: 0% 12%;
         height: 50vh;
@@ -383,6 +388,11 @@
 }
 
 @media (width:320px) {
+    .PicSection h1{
+        border-width: 4px;
+        width: 60%;
+        font-size: 22.5px;
+    }
     .redSection h1{
         font-size: 20px;
     }
@@ -489,9 +499,9 @@
         cursor: pointer;
     }
     .BookLabel p{
-        font-size: 15px;
+        font-size: 13px;
         width: 50%;
-        margin-top: 2%;
+        margin-top: 0.5%;
         margin-right: 7%;
         margin-left: 2%;
         margin-bottom: 0;

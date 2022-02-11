@@ -3,6 +3,8 @@ import Image from "next/image"
 
 
 function DestinationCard ({region}){
+
+
     return(
         <div className="Destinations">
 

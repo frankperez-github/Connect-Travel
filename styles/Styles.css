@@ -1,6 +1,9 @@
 p{
     font-size: 14px;
 }
+a{
+    text-decoration: none;
+}
 
 
 /************LayOut*****************/
@@ -170,6 +173,15 @@ p{
     margin-top: 1.5%;
     margin-right: 15%;
     width: 20%;
+}
+.ArrowMove{
+    animation-name: MoveArrow;
+    animation-duration: 10s;
+}
+@keyframes MoveArrow {
+    0%{margin-right: 15%;}
+    10%{margin-right: -20%;}
+    100%{margin-right: -20%;}
 }
 .Buttons{
     display: flex;
@@ -345,7 +357,6 @@ p{
 .PicSection{
     height: 53vh;
     padding-top: 7%;
-   
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
