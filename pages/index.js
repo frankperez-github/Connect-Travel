@@ -21,7 +21,7 @@ export default function Home({regions}) {
       <Head>
         <title>Connect Travel Corp. </title>
         <meta name="description" content="Generated using create next app by Frank Pérez and Adrian Valdés" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <main>
