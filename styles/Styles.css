@@ -153,6 +153,39 @@ a{
     color: rgb(68, 65, 65);
     margin-bottom: -2.5%;
 }
+.leftAbout{
+    width: 30%;
+    padding: 4% 0;
+    padding-left: 15%;
+    padding-right: 0;
+}
+.rightAbout{
+    width: 50%;
+}
+.rightAbout h2{
+    color: black !important;
+    margin-left: 0;
+    margin-top: 7.5%;
+    margin-bottom: -2.5%;
+}
+.rightAbout h1, h2{
+    margin-left: 0;
+    width: 90%;
+    text-align: left;
+}
+.rightAbout p{
+    text-align: left;
+    width: 50%;
+}
+.ContactButton{
+    width: 25%;
+    margin-top: 3% !important;
+    margin-left: -75%;
+}
+.PrincipalAbout{
+    display: flex;
+    justify-content: space-around;
+}
 .BookLabel{
     display: flex;
     justify-content: space-between;
@@ -474,14 +507,12 @@ a{
     color: #EE2632 !important;
 }
 .ContactButton{
-    width: 13%;
     margin-top: 0;
     margin-bottom: 5%;
     padding: 0.5% 0;
 }
 .AboutUsP{
     width: 25%;
-    margin: 3% 37.5%;
     line-height: 25px;
 }
 .redSection h1{
