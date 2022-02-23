@@ -42,7 +42,7 @@ function Form(){
 
                 <h1>Get exclusive deals</h1>
 
-                <input value={email} onChange = {(e)=>{setEmail(e.target.value)}} required={true} type="mail" placeholder="Enter your Email address" /> 
+                <input value={email} onChange = {(e)=>{setEmail(e.target.value)}} required={true} type="mail" placeholder="Enter your email address" /> 
 
                 <p>You will receive promotional emails from Connect Travel. Form more information, see (the) privacy police.</p>
 

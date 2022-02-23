@@ -74,7 +74,7 @@ function LayOut(props) {
 
                         <div className="Mails">
                             <div className="">
-                                <a href="mailto:book@connectravel.us">book@connectravel.us</a>
+                                <a href="mailto:connectvero@outlook.com">connectvero@outlook.com</a>
                             </div>
                             
                             <div className="connectWeb">
@@ -85,7 +85,7 @@ function LayOut(props) {
                     </div>
 
                     <div className="rightInfo">
-                        <p>Connect Travel corporation is not responsible for content on external Web sites</p>
+                        <p>Connect Travel Corporation is not responsible for content on external Web sites</p>
 
                         <p>&copy; 2020 Connect Travel Corporation.<br/> All rights reserved</p>
                     </div>
