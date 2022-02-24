@@ -545,6 +545,37 @@ a{
     margin-bottom: 0;
     color: #EE2632;
 }
+.TermsGrid{
+    width: 60%;
+    display: flex;
+    border: solid;
+    border-width: 1px;
+}
+.TermsGrid p{
+    margin: 0;
+    padding: 3% 5%;
+    border: solid;
+    border-width: 1px;
+}
+.TermsGrid h4{
+    border: solid;
+    border-width: 1px;
+    padding: 5%;
+    margin: 0;
+}
+.rightColumn h4{
+    padding: 8.2% 5%;
+}
+.rightColumn p{
+    padding: 4.99% 5%;
+}
+.TermsInfo spam{
+    font-weight: 700;
+}
+.TermsInfo a{
+    color: black;
+    text-decoration: underline;
+}
 /*********End of Terms and Conditions*******/
 
 

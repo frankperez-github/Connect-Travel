@@ -44,15 +44,43 @@ function Terms_Conditions(){
             *The following table of charges will apply when notice of cancellation is given after the booking is confirmed:<b/>
             ALL CHARGES BELOW ARE PER PERSON.</p>
 
-            <div className="leftColumn">
-                <h4>Notice received by Connect Travel Corporation prior to departure</h4>
-                <p>31 days or more</p>
-                <p>30 - 22 days</p>
-                <p>21 - 8 days</p>
-                <p>7 - 1 days</p>
-                <p>Days of departure/No-Show</p>
+            <div className="TermsGrid">
+                <div className="leftColumn">
+                    <h4>Notice received by Connect Travel Corporation prior to departure</h4>
+                    <p>31 days or more</p>
+                    <p>30 - 22 days</p>
+                    <p>21 - 8 days</p>
+                    <p>7 - 1 days</p>
+                    <p>Days of departure/No-Show</p>
+                </div>
+                <div className="rightColumn">
+                    <h4>Charge in US$ or a % of total Tour Price</h4>
+                    <p>50%</p>
+                    <p>20%</p>
+                    <p>35%</p>
+                    <p>100%</p>
+                    <p>100%</p>
+                </div>
             </div>
 
+            <h4>B. Booking Changes and Modifications</h4>
+            <p>1.A fee of $25.00 per reservation will be charged for any and each revision or alteration made to a reservation after the booking is confirmed.</p>
+            <p>2. If documents such as vouchers, airline tickets, etc, need to be, reissued a fee of $25.00 will be charged over and above the afore-mentioned revision fees plus any additional fees imposed by the hotel, airline or service providers selected in your itinerary. If a courier service (Airbone Express, UPS, FedEx, etc.) is requested to deliver the reissued documents, you will be responsible for the actual cost of the delivery service, otherwise, documents will be sent via regular mail. Connect Travel Corporation is not responsible for any delays in the receipt of reissued documents delivered throught the US Postal Mail Service or couriers.</p>
+            <p><spam>Non-transferability:</spam> Name changes are not permitted for booked reservations. If original traveler/s is/are not eligible to travel, reservation will be cancelled and cancellation fees will apply. New reservations will be on a space available basis and cannot be guaranteed by Connect Travel Corporation. Once reservation is confirmed, payments made towards the original booking (less any cancellation charges), will be credited to the new reservation.</p>
+
+            <h2>REFUNDS</h2>
+            <p>Refunds are determined based on the cancellation policies above. No refunds will be made for any services in the itinerary that you do not use including, but not limited to hotel accommodations, transfers, tours/sightseeing, missed meals and excursions.</p>
+            <p>Hotel Bookings: unused hotel nights are refundable only if they cover a minimum of 2 consecutive nights and only to the extent that the tour operator receives refund from the hotel. A copy of the checkout bill will help to expedite the proccessing of any refund due. If sufficient proof is supplied, any refund, less any cancellation charges by Connect Travel Corporation or the supplier/s, will be processed as soon as possible. If you purchased travel insurance at the time of booking, please note that in the event of your withdrawal from a tour after commencements for reasons of illness, you must present a medical certificate in support of any insurance claim. <spam>ALL REFUND REQUESTS MUST BE SENT IN WRITING AND RECEIVED BY Connect Travel Corporation NO LATER THAN 30 DAYS AFTER TRIP HAS ENDED.</spam> All refund claims must be submitted to: Connect Travel Corporation 1240 Marseille Dr, Miami Beach, FL 33141, EE.UU. ATTN: Refunds or email <a href="mailto:connectvero@outlook.com"> connectvero@outlook.com</a></p>
+            <p>Connect Travel Corporation will not accept faxed requests. No refund or adjustment will be made for any changes, cancellations or modifications of services provided in the itinerary/voucher, if the client makes such changes during the tour.</p>
+            <p>Refunds will be reimbursed the same way it was originally paid.<br/>
+               Refunds for payments with credit card will be credited to same credit card.<br/>
+               Payments in cash/check, will be refunded to the person who paid for the services.<br/>
+               Payments with Safety Pay, MoneyGram, Western Union, will be refunded to the person who paid for the services.</p>
+            
+            <h4>Chargebacks</h4>   
+            <p>Any Chargebacks must be handled directly with Costamar Travel before contacting the Credit Card Company. Costamar will do anything in its power to resolve the claim.</p>
+
+            <h2>General Conditions</h2>
         </div>
     </div>
     );
