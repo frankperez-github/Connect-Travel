@@ -85,7 +85,7 @@ function Terms_Conditions(){
             <p><spam>_Hotel Check In/Check Out:</spam> According to Hotel policies, rooms are not available for check-in before 15:00 hours and must be vacated on check-out day by 11:00 hours. Policies may vary from hotel to hotel. Please check your tour/service vouchers for special instructions.</p>
             <p><spam>_Airline, Airport, Government Taxes and Fees:</spam> Any domestic and international departure or arrival taxes, security charges, and other types of taxes or charges imposed by airlines, airpots, governments, etc. are not included in our prices.</p>
             <p><spam>_Taxes:</spam> All hotel, transfer, sightseeing and tour prices are tax inclusive (local room tax, hotel service charge, energy surcharge) unless otherwise specified. Tips are not included</p>
-            <p></p>
+            <p>...</p>
         </div>
     </div>
     );
