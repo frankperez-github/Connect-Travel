@@ -536,10 +536,14 @@ a{
     margin-top: 10%;
 }
 .TermsInfo{
+    text-align: left;
     width: 73%;
     margin: 0 13.5%;
 }
 .TermsInfo p{
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
     line-height: 150%;
 }
 .TermsInfo h2{

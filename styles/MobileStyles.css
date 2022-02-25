@@ -1,4 +1,15 @@
 @media (max-width:500px) {
+    .TermsGrid{
+        width: 100%;
+        margin: 5% 0;
+    }
+    .TermsGrid p{
+        width: 89%;
+    }
+    .rightColumn h4{
+        padding-bottom: 15%;
+        padding-top: 14.5%;
+    }
     .PrincipalAbout{
         display: block;
         text-align: center;
@@ -278,7 +289,10 @@
         width: 90%;
     }
     .TermsInfo h2{
+        text-align: left;
         font-size: 23px;
+        margin-bottom: 3%!important;
+        margin-top: 5% !important;
     }
     .AboutUsP{
         text-align: center;
@@ -508,10 +522,12 @@
         margin: 0 5%;
         width: 90%;
     }
+    
     .TermsInfo h2{
         font-size: 15px;
     }
     .TermsInfo h4{
+        margin: 0;
         font-size: 13px;
     }
     .TermsInfo p{
