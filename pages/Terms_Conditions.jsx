@@ -23,7 +23,7 @@ function Terms_Conditions(){
             <h4>NOTE: If payment is being made for a deposit or final payment on due date, credit card is the only acceptable form of payment.</h4>
 
             <h2>LATE BOOKINGS</h2>
-            <p>Late bookings are considered rush orders and require special handling. Therefore late bookings will incur additional costs for faxing, updating and confirming your hotel accommodations and other services required. Bookings made less than 7 days prior to departure will be subject to an additional charge of $25.00</p>
+            <p>Late bookings are considered &#34;rush&#34; orders and require special handling. Therefore late bookings will incur additional costs for faxing, updating and confirming your hotel accommodations and other services required. Bookings made less than 7 days prior to departure will be subject to an additional charge of $25.00</p>
 
             <h4>Connect Travel Corporation will not accept reservations for travel within 3 days.</h4>
 
@@ -39,7 +39,7 @@ function Terms_Conditions(){
 
             <h2>CANCELLATIONS AND MODIFICATIONS</h2>
             <h4>A. Cancellations Charges/No-Shows</h4>
-            <p>All cancellations arre subject to a $50.00 cancellation charge per package, in addition to the applicable percentage of the total tour price as shown on the chart below. Significant additional penalties (i.e. Non-refundable, and or non-transferable airlines tickets, fees or hotel penalties, etc.) may apply. A written notice of cancellation is required for confirmed reservstions and must be sent directly to Connect Travel Corporation via email <a href="mailto: book@connecttravel.us">book@connecttravel.us</a>. The departure date constitutes the date indicated on Connect Travel Corporation confirmation. If you are cont present on the day of departure, this will be considered a No-Show and will incur in a 100% cancellation fee.<b/><b/>
+            <p>All cancellations arre subject to a $50.00 cancellation charge per package, in addition to the applicable percentage of the total tour price as shown on the chart below. Significant additional penalties (i.e. Non-refundable, and or non-transferable airlines tickets, fees or hotel penalties, etc.) may apply. A written notice of cancellation is required for confirmed reservstions and must be sent directly to Connect Travel Corporation via email <a href="mailto: book@connecttravel.us">book@connecttravel.us</a>. The departure date constitutes the date indicated on Connect Travel Corporation&#39;s confirmation. If you are cont present on the day of departure, this will be considered a No-Show and will incur in a 100% cancellation fee.<b/><b/>
             
             *The following table of charges will apply when notice of cancellation is given after the booking is confirmed:<b/>
             ALL CHARGES BELOW ARE PER PERSON.</p>
