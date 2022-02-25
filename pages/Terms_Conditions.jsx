@@ -23,7 +23,7 @@ function Terms_Conditions(){
             <h4>NOTE: If payment is being made for a deposit or final payment on due date, credit card is the only acceptable form of payment.</h4>
 
             <h2>LATE BOOKINGS</h2>
-            <p>Late bookings are considered "rush" orders and require special handling. Therefore late bookings will incur additional costs for faxing, updating and confirming your hotel accommodations and other services required. Bookings made less than 7 days prior to departure will be subject to an additional charge of $25.00</p>
+            <p>Late bookings are considered rush orders and require special handling. Therefore late bookings will incur additional costs for faxing, updating and confirming your hotel accommodations and other services required. Bookings made less than 7 days prior to departure will be subject to an additional charge of $25.00</p>
 
             <h4>Connect Travel Corporation will not accept reservations for travel within 3 days.</h4>
 
