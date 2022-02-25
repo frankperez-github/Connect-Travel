@@ -558,8 +558,9 @@ a{
     border-width: 1px;
 }
 .TermsGrid p{
+    width: 89.4%;
     margin: 0;
-    padding: 3% 5%;
+    padding: 3% 4.9%;
     border: solid;
     border-width: 1px;
 }
@@ -573,7 +574,7 @@ a{
     padding: 8.2% 5%;
 }
 .rightColumn p{
-    padding: 4.99% 5%;
+    padding: 4.99% 4.7%;
 }
 .TermsInfo spam{
     font-weight: 700;
