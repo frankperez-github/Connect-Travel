@@ -36,7 +36,7 @@ export default function Home({regions}) {
               <a href='https://connecttravelcorp.clickandbook.com/' rel="noreferrer" target="_blank">
 
                 <button onMouseLeave={ReturnArrow} onMouseOver={animationArrow} className='BookLabel'>
-                    <p>Click and Book</p>
+                    <p>Click & Book</p>
                     
                     <div id='Arrow' className='Arrow'>
                       <Image alt="" width={1000} height={1000} src ="/Arrow.svg"  />

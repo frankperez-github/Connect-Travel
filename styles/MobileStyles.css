@@ -83,6 +83,7 @@
         margin-bottom: 0;
     }
     .SpecificName{
+        padding: 2% 0%;
         position: relative;
         width: 50%;
         margin-left: 24%;
@@ -91,6 +92,7 @@
         margin-bottom: 20%;
     }
     .SpecificName p{
+        width: 100%;
         font-size: 14px;
         padding-top: 2.1%;
     } 
@@ -379,6 +381,8 @@
         font-size: 16px;
         margin-top: 5%;
         width: 50%;
+        margin-left: 0%;
+        text-align: left;
         line-height: 130%;
         color: rgb(68, 65, 65);
         margin-bottom: 10%;

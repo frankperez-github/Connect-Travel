@@ -320,6 +320,7 @@ a{
     color: gray;
 }
 .ConnectButton{
+    border-radius: 15px;
     font-size: 18px;
     width: 25%;
     padding: 1% 0;
