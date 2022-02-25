@@ -13,7 +13,7 @@ function About_Us({regions}){
               <h2 className="AboutTitle Info">About</h2>
               <h1 className="AboutTitle Info">Connect Travel Corp.</h1>
 
-              <p className="AboutUsP">As a family Travel Agency we are commited to making our clients feel an excellent experience before, during and after their trips; thus fulfilling our objective; please them. Your experience is cover by Vero & Javi.</p>
+              <p className="AboutUsP">As a family Travel Agency we are commited to making our clients feel an excellent experience before, during and after their trips; thus fulfilling our objective; please them.<br/>Your experience is cover by Vero &#38; Javi.</p>
 
               <a href="mailto:connectvero@outlook.com">
                 <button className="ConnectButton ContactButton">Contact</button>

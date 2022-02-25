@@ -178,6 +178,7 @@ a{
     width: 50%;
 }
 .ContactButton{
+    border-radius: 25px !important;
     width: 25%;
     margin-top: 3% !important;
     margin-left: -75%;
@@ -269,6 +270,7 @@ a{
     margin-left: 2%;
 }
 .SpecificName{
+    border-radius: 25px;
     position: relative;
     width: 55%;
     height: 2.5vh;
