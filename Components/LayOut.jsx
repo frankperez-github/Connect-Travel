@@ -93,13 +93,13 @@ function LayOut(props) {
                     <div className="networksLink">
 
                         <div className="InstagramLink network">
-                            <a href="#">
+                            <a href="https://www.instagram.com/connectravel.corp/">
                                 <Image alt="Instagram" src="/Instagram.svg" width="100%" height="100%" />
                             </a>
                         </div>
 
                         <div className="FacebookLink network">
-                            <a href="#">
+                            <a href="https://www.facebook.com/connectravel.corp/">
                                 <Image alt="Facebook" src="/Facebook.svg" width="100%" height="100%" />
                             </a>
                         </div>
