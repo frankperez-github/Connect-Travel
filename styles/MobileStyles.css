@@ -140,6 +140,11 @@
         width: 100%;
         line-height: 100%;
     }
+    .leftInfo p{
+        line-height: 250%;
+        width: 100%;
+        margin-left: -5%;
+    }
     .rightInfo{
         margin-top: 25%;
         width: 100%;
@@ -161,8 +166,9 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        margin-top: -53%;
-        padding-bottom: 35%;
+        margin-top: -57%;
+        margin-left: -3%;
+        padding-bottom: 45%;
         width: 40%;
     }
     .NavigationLinks{
