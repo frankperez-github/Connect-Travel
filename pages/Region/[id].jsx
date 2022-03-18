@@ -19,8 +19,9 @@ const Region = ({region}) => {
     <div className="Destination">
             
     <div className="PicSection" style={{backgroundImage:`url(${region.cover})`}}>
-        <h1>{region.name}</h1>
     </div>
+    
+    <h1 className="RegionName">{region.name}</h1>
 
     <div className="container">
        {region.packages.map(pack=><PackageCard pack={pack} key={pack.id}/>)}

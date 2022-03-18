@@ -381,7 +381,7 @@ a{
 
 /******************Destination Section*************/
 
-.PicSection h1{
+.RegionName{
     font-size: 55px;
     border-bottom: solid;
     border-bottom-width: 9px;
@@ -739,7 +739,7 @@ a{
     .footerInfo p{
         font-size: 14px;
     }
-    .PicSection h1{
+    .RegionName{
         font-size: 54px;
     }    
     .AboutUsP{
@@ -789,7 +789,7 @@ a{
     .footerInfo p{
         font-size: 12px;
     }
-    .PicSection h1{
+    .RegionName{
         font-size: 53px;
     }    
     .AboutUsP{
@@ -839,7 +839,7 @@ a{
     .footerInfo p{
         font-size: 11px;
     }
-    .PicSection h1{
+    .RegionName{
         font-size: 52px;
     }    
     .AboutUsP{
@@ -889,7 +889,7 @@ a{
     .footerInfo p{
         font-size: 10px;
     }
-    .PicSection h1{
+    .RegionName{
         font-size: 51px;
     }    
 }
@@ -936,7 +936,7 @@ a{
     .footerInfo p{
         font-size: 9px;
     }
-    .PicSection h1{
+    .RegionName{
         font-size: 50px;
     }    
 }
@@ -988,7 +988,7 @@ a{
         padding-bottom: 0;
         padding-top: 0.8%;
     }
-    .PicSection h1{
+    .RegionName{
         font-size: 49px;
     }    
 }

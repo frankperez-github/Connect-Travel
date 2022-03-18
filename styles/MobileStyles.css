@@ -29,9 +29,12 @@
     .rightAbout{
         width: 100%;
     }
-    .rightAbout h1, h2, p{
+    .rightAbout p{
         width: 60%;
         text-align: left;
+    }
+    .rightAbout h1, h2{
+        text-align: center;
     }
     .rightAbout h2{
         margin-bottom: 2% !important;
@@ -64,14 +67,11 @@
         padding: 4%;
         margin-bottom: 6%;
     }
-    .PicSection {
-        margin-bottom: 30%;
-    }
-    .PicSection h1{
+    .RegionName{
         border-width: 4px;
         width: 60%;
         font-size: 29px;
-        margin-top: 122%;
+        margin: 10% 0;
     }
     .redSection h1{
         text-align: center;
@@ -456,7 +456,7 @@
 }
 
 @media (width:320px) {
-    .PicSection h1{
+    .RegionName{
         border-width: 4px;
         width: 60%;
         font-size: 22.5px;
@@ -588,7 +588,7 @@
     
 }
 @media (max-width:395px) {
-    .PicSection h1{
+    .RegionName{
         border-width: 4px;
         width: 60%;
         font-size: 22.5px;
@@ -710,12 +710,13 @@
         font-size: 13px;
         width: 50%;
         margin-top: -2%;
-        margin-right: 7%;
-        margin-left: 2%;
+        margin-right: 2%;
+        margin-left: 5%;
         margin-bottom: 0;
     }
     .Arrow{
-        margin-top: -2%;
+        margin-top: 0.7%;
+        width: 15%;
     }
     .formSection{
         padding-top: 5%;
@@ -728,13 +729,147 @@
     }   
     
 }
-@media (width:390px) {
-    .formSection{
-        padding-top: 25%;
+@media (max-width:360px) {
+    .RegionName{
+        border-width: 4px;
+        width: 60%;
+        font-size: 22.5px;
+    }
+    
+
+    .redSection h1{
         font-size: 20px;
+    }
+    .Info{
+        font-size: 20px;
+    }
+    .networksLink{
+        margin-top: -52%;
+        padding-bottom: 45%;
+    }
+    .Mails{
+        margin-top: -4% !important;
+        line-height: 130% !important;
+    }
+    .leftInfo a,p,span{
+        font-size: 12px;
+    }
+    .rightInfo p{
+        margin-left: -2.7%;
+        font-size: 12px;
+    }
+    .SpecificName p{
+        font-size: 12px;
+    }
+    .SpecificName{
+        height: 2vh;
+        padding-top: 2.3%;
+        padding-bottom: 3%;
+    }
+    .ConnectButton{
+        height: 7vh;
+        font-size: 18px;
+    }
+    .AboutUsP{
+        font-size: 13px;
+    }
+    .AboutUs h1{
+        font-size: 23px;
+    }
+    .NavigationLinksMob a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .NavigationLinksMob p{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .CloseMenu {
+        margin-left: 83%;
+    }
+    .Form{
+        width: 90%;
+        height: 40vh;
+        left: 5%;
+    }
+    .Form h1{
+        font-size: 15px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .Form input{
+        font-size: 10px;
+    }
+    .Form p{
+        font-size: 8px;
+    }
+    .Message{
+        margin-left: 45%;
+        margin-top: 0%;
+    }
+    .ConnectButton{
+        width: 45%;
+        font-size: 19px;
+        height: 3.5vh;
+    }
+    .TermsTitle h1{
+        font-size: 32px;
+    }
+    .TermsInfo{
+        margin: 0 5%;
+        width: 90%;
+    }
+    
+    .TermsInfo h2{
+        font-size: 15px;
+    }
+    .TermsInfo h4{
+        margin: 0;
+        font-size: 13px;
+    }
+    .TermsInfo p{
+        font-size: 10px;
+    }
+    .Phones p{
+        margin-bottom: 5%;
+    }
+    .Mails{
+        line-height: 110%;
+        margin-top: -0.8%;
+    }
+    .BookLabel{
+        display: flex;
+        justify-content: left;
+        padding: 2% 2%;
+        padding-right: 5%;
+        background-color: white;
+        width: 80%;
+        margin-top: 80%;
+        margin-bottom: 45%;
+        cursor: pointer;
+    }
+    .BookLabel p{
+        font-size: 13px;
+        width: 50%;
+        margin-top: -5%;
+        margin-right: 2%;
+        margin-left: 5%;
+        margin-bottom: 0;
+    }
+    .Arrow{
+        margin-top: -2.3%;
+        width: 15%;
+    }
+    .formSection{
+        padding-top: 5%;
+        font-size: 15px;
+        height: 126vh;
     }
     .Info{
         width: 60%;
         margin-left: 21.5%;
     }   
+    
 }
