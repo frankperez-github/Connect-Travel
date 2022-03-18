@@ -243,11 +243,13 @@
         font-size: 23px;
     }
     .NavigationLinksMob p{
-        margin-left: 0;
+        margin-left: 0%;
         margin-top: 5%;
         color: white;
         text-decoration: none;
         margin-bottom: 13%;
+        text-align: left;
+        width: 100%;
         font-size: 23px;
     }
     .Close{
@@ -459,6 +461,142 @@
     .networksLink{
         margin-top: -60%;
         padding-bottom: 45%;
+    }
+    .leftInfo a,p,span{
+        font-size: 12px;
+    }
+    .rightInfo p{
+        font-size: 12px;
+    }
+    .SpecificName p{
+        font-size: 12px;
+    }
+    .SpecificName{
+        padding-top: 2.3%;
+        padding-bottom: 3%;
+    }
+    .ConnectButton{
+        height: 7vh;
+        font-size: 18px;
+    }
+    .AboutUsP{
+        font-size: 13px;
+    }
+    .AboutUs h1{
+        font-size: 23px;
+    }
+    .NavigationLinksMob a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .NavigationLinksMob p{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .CloseMenu {
+        margin-left: 83%;
+    }
+    .Form{
+        width: 90%;
+        height: 57vh;
+        left: 5%;
+    }
+    .Form h1{
+        font-size: 15px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .Form input{
+        font-size: 10px;
+    }
+    .Form p{
+        font-size: 8px;
+    }
+    .Message{
+        margin-left: 45%;
+        margin-top: 0%;
+    }
+    .ConnectButton{
+        width: 45%;
+        font-size: 19px;
+        height: 6vh;
+    }
+    .TermsTitle h1{
+        font-size: 32px;
+    }
+    .TermsInfo{
+        margin: 0 5%;
+        width: 90%;
+    }
+    
+    .TermsInfo h2{
+        font-size: 15px;
+    }
+    .TermsInfo h4{
+        margin: 0;
+        font-size: 13px;
+    }
+    .TermsInfo p{
+        font-size: 10px;
+    }
+    .Phones p{
+        margin-bottom: 5%;
+    }
+    .Mails{
+        line-height: 110%;
+        margin-top: -0.8%;
+    }
+    .BookLabel{
+        display: flex;
+        justify-content: left;
+        padding: 0% 2%;
+        padding-right: 5%;
+        background-color: white;
+        width: 80%;
+        margin-top: 80%;
+        margin-bottom: 45%;
+        cursor: pointer;
+    }
+    .BookLabel p{
+        font-size: 13px;
+        width: 50%;
+        margin-top: 0.5%;
+        margin-right: 7%;
+        margin-left: 2%;
+        margin-bottom: 0;
+    }
+    .formSection{
+        padding-top: 5%;
+        font-size: 15px;
+        height: 126vh;
+    }
+    .Info{
+        width: 60%;
+        margin-left: 21.5%;
+    }   
+    
+}
+@media (width:360px) {
+    .PicSection h1{
+        border-width: 4px;
+        width: 60%;
+        font-size: 22.5px;
+    }
+    .redSection h1{
+        font-size: 20px;
+    }
+    .Info{
+        font-size: 20px;
+    }
+    .networksLink{
+        margin-top: -60%;
+        padding-bottom: 45%;
+    }
+    .Mails{
+        margin-top: -4% !important;
+        line-height: 130% !important;
     }
     .leftInfo a,p,span{
         font-size: 12px;
