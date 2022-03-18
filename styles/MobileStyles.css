@@ -31,8 +31,7 @@
     }
     .rightAbout h1, h2, p{
         width: 60%;
-        text-align: center;
-        margin: 0 15%;
+        text-align: left;
     }
     .rightAbout h2{
         margin-bottom: 2% !important;
@@ -65,13 +64,14 @@
         padding: 4%;
         margin-bottom: 6%;
     }
-    .formSection{
-        min-height: auto;
+    .PicSection {
+        margin-bottom: 30%;
     }
     .PicSection h1{
         border-width: 4px;
         width: 60%;
         font-size: 29px;
+        margin-top: 122%;
     }
     .redSection h1{
         text-align: center;
@@ -106,6 +106,7 @@
         width: 100%;
         font-size: 14px;
         padding-top: 2.1%;
+        text-align: center;
     } 
     .BurgerMenu{
         display: block;
@@ -156,6 +157,9 @@
         align-items: center;
     }
     .rightInfo p{
+        text-align: left !important;
+        margin-left: 0;
+        width: 100%;
         font-size: 14px;
     }
     .connectWeb{
@@ -166,7 +170,7 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        margin-top: -57%;
+        margin-top: -53%;
         margin-left: -3%;
         padding-bottom: 45%;
         width: 40%;
@@ -320,8 +324,8 @@
         margin: 0 6%;
     }
     .LeftSideCard {
-        width: 84%;
-        margin: 0 6%;
+        width: 94%;
+        margin: 3%;
     }
     .Line{
         display: flex;
@@ -331,9 +335,6 @@
     }
     .Line p{
         width: 87%;
-    }
-    .Line:last-of-type{
-        margin-bottom: 10%;
     }
     .Icon{
         margin-right: 5%;
@@ -346,7 +347,9 @@
         display: block;
     }
     .Description{
-        margin-top: -2%;
+        margin-top: 2%;
+        line-height: 130%;
+        width: 95%;
         margin-bottom: 10%;
     }
     .PriceMob{
@@ -360,13 +363,18 @@
     }
     .Reserve{
         margin-left: 45%;
-        padding: 3.2% 15%;
+        padding: 1.2% 15%;
     }
     .RightSideCard{
         margin-bottom: 10%;
     }
-    .Price{
-        margin-bottom: -9%;
+    .PriceMob{
+        margin-top: 10%;
+    }
+    .PriceMob p {
+        width: 85%;
+        margin-top: 2%;
+        text-align: right;
     }
     .formSection{
         animation-name: BackgAnimMob;
@@ -410,6 +418,7 @@
         margin-bottom: 10%;
     }
     .BookLabel{
+        height: 5vh;
         display: flex;
         justify-content: left;
         padding: 0% 2%;
@@ -423,13 +432,13 @@
     .BookLabel p{
         font-size: 16px;
         width: 50%;
-        margin-top: 1%;
+        margin-top: -2%;
         margin-right: 7%;
-        margin-left: 2%;
-        margin-bottom: 0;
+        margin-left: 5%;
+        margin-bottom: -1%;
     }
     .Arrow{
-        margin-top: 2%;
+        margin-top: -1%;
         width: 20%;
     }
     #InsuranceMob{
@@ -591,7 +600,7 @@
         font-size: 20px;
     }
     .networksLink{
-        margin-top: -55%;
+        margin-top: -52%;
         padding-bottom: 45%;
     }
     .Mails{
@@ -602,12 +611,14 @@
         font-size: 12px;
     }
     .rightInfo p{
+        margin-left: -2.7%;
         font-size: 12px;
     }
     .SpecificName p{
         font-size: 12px;
     }
     .SpecificName{
+        height: 2vh;
         padding-top: 2.3%;
         padding-bottom: 3%;
     }
@@ -636,7 +647,7 @@
     }
     .Form{
         width: 90%;
-        height: 57vh;
+        height: 40vh;
         left: 5%;
     }
     .Form h1{
@@ -657,7 +668,7 @@
     .ConnectButton{
         width: 45%;
         font-size: 19px;
-        height: 6vh;
+        height: 3.5vh;
     }
     .TermsTitle h1{
         font-size: 32px;
@@ -698,10 +709,13 @@
     .BookLabel p{
         font-size: 13px;
         width: 50%;
-        margin-top: 0.5%;
+        margin-top: -2%;
         margin-right: 7%;
         margin-left: 2%;
         margin-bottom: 0;
+    }
+    .Arrow{
+        margin-top: -2%;
     }
     .formSection{
         padding-top: 5%;
