@@ -59,7 +59,7 @@ function PackageCard({pack}) {
                         <p>per adult</p>
                     </div>
 
-                    <a href="mailto:book@connectravel.us" className="ConnectButton Reserve">Reserve</a>
+                    <a href="mailto:connectvero@outlook.com" className="ConnectButton Reserve">Reserve</a>
                 </div>
             </div>
 
