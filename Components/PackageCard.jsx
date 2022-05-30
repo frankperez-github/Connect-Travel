@@ -38,7 +38,7 @@ function PackageCard({pack}) {
                     </div>
 
                     <p>
-                        Valid from {valid_from.getDate()}, {valid_to.getFullYear()} to {valid_to.getDate()}, {valid_to.getFullYear()}
+                        Valid from {valid_from.getDate()},{valid_from.getMonth()}, {valid_from.getFullYear()} to {valid_to.getDate()}, {valid_to.getMonth()}, {valid_to.getFullYear()}
                     </p>
 
                 </div>
